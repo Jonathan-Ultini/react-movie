@@ -62,8 +62,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/
-cd 
+git clone https://github.com/Jonathan-Ultini/react-movie.git
+cd react-movie
 ```
 
 **Installation**
