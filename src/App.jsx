@@ -5,6 +5,7 @@ import Spinner from './components/Spinner';
 import MovieCard from './components/MovieCard';
 import { useDebounce } from 'react-use';
 import { getTrendingMovies, updateSearchCount } from './appwrite.js';
+import { FaArrowLeft } from "react-icons/fa6";
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
@@ -93,6 +94,7 @@ const App = () => {
       <div className="pattern" />
 
       <div className="wrapper">
+        <a href="/"><FaArrowLeft className='text-white text-4xl' /></a>
         <header>
           <img src='./hero.png' alt='Hero Banner' />
           <h1>Find <span className='text-gradient'>Movies</span> You'll Enjoy Without the Hassle</h1>
